@@ -1,10 +1,8 @@
 from primes import primes_sieve, primes_sieve_gen
 
 limit = 1000000
-prime_list = []
+prime_list = [i for i in primes_sieve_gen(1000000)]
 is_prime = primes_sieve(limit)
-for i in primes_sieve_gen(limit):
-    prime_list.append(i)
 
 def rotate(n, l):
     return n[l:] + n[:l]
