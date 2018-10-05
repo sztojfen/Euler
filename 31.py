@@ -31,4 +31,4 @@ print ways[500]
 #
 # while target > 0:
 #     print first_coin[target]
-#     target = target - first_coin[target]
+#     target = target - first_coin[target] 
