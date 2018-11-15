@@ -162,7 +162,7 @@ class Hand(object):
                         elif self.get_figs()[0] < oponent.get_figs()[0]:
                             return False
                         else:
-                            raise Exception ('DRAW!!!')
+                            raise Exception('DRAW!!!')
 
 if __name__ == '__main__':
     # hand = (['AC', 'KC', 'AS', '2D', '3D'])
